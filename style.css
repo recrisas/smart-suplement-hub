@@ -30,9 +30,9 @@ body {
     z-index: -1; opacity: 0.4; pointer-events: none;
 }
 
-/* --- HEADER DISTRIBUÍDO (WIDE LAYOUT) --- */
+/* --- HEADER --- */
 header {
-    padding: 1.5rem 3rem; /* Padding lateral maior */
+    padding: 1.5rem 3rem;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -40,18 +40,15 @@ header {
     backdrop-filter: blur(16px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
-    
-    /* MUDANÇA: Flex Row para separar os lados */
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between; /* Espalha o conteúdo */
+    justify-content: space-between;
     gap: 2rem;
 }
 
-/* Lado Esquerdo: Títulos */
 .header-content {
-    text-align: left; /* Alinhado à esquerda */
+    text-align: left;
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
@@ -75,7 +72,6 @@ header h1 {
     font-weight: 300;
 }
 
-/* Lado Direito: Busca e Botões */
 .search-wrapper {
     position: relative;
     width: auto;
@@ -83,15 +79,14 @@ header h1 {
     max-width: 800px;
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Alinha tudo à direita */
-    gap: 1rem; /* Espaço generoso entre os elementos */
+    justify-content: flex-end;
+    gap: 1rem;
 }
 
-/* Input agora tem tamanho flexível */
 #campo-busca {
     width: 100%;
     min-width: 300px;
-    padding: 1rem 1.5rem; /* Padding normal, sem espaço extra pro botão */
+    padding: 1rem 1.5rem;
     border-radius: 12px;
     border: 1px solid rgba(255,255,255,0.1);
     background: rgba(0, 0, 0, 0.3);
@@ -107,9 +102,8 @@ header h1 {
     box-shadow: 0 0 0 2px rgba(163, 230, 53, 0.2);
 }
 
-/* --- BOTÃO DE DADO (Agora com destaque próprio) --- */
 #btn-random {
-    position: static; /* Removemos o absolute */
+    position: static;
     width: 54px;
     height: 54px;
     border-radius: 12px;
@@ -121,7 +115,7 @@ header h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0; /* Não deixa ele esmagar */
+    flex-shrink: 0;
 }
 
 #btn-random:hover {
@@ -131,7 +125,6 @@ header h1 {
     box-shadow: 0 0 15px rgba(163, 230, 53, 0.1);
 }
 
-/* Botão Pesquisar */
 #botao-busca {
     padding: 0 2rem;
     height: 54px;
@@ -152,11 +145,11 @@ header h1 {
     filter: brightness(1.1);
 }
 
-/* --- CARDS (Mantidos iguais) --- */
+/* --- CARDS (AGORA COM SUPORTE MOBILE .ACTIVE) --- */
 main {
     flex: 1;
     width: 100%;
-    max-width: 1400px; /* Mais largo para telas grandes */
+    max-width: 1400px;
     margin: 3rem auto;
     padding: 0 2rem;
 }
@@ -181,6 +174,8 @@ main {
     justify-content: center;
     min-height: 320px;
     cursor: pointer;
+    /* Evita o highlight azul padrão do toque no mobile */
+    -webkit-tap-highlight-color: transparent; 
 }
 
 .card::before {
@@ -189,17 +184,18 @@ main {
     transform: scaleX(0); transition: transform 0.4s ease;
 }
 
-.card:hover {
+/* Aplica efeito se for HOVER (mouse) OU ACTIVE (toque/classe JS) */
+.card:hover, .card.active {
     transform: translateY(-8px);
     box-shadow: 0 20px 40px -10px rgba(0,0,0,0.5);
     border-color: rgba(255,255,255,0.1);
 }
-.card:hover::before { transform: scaleX(1); }
+.card:hover::before, .card.active::before { transform: scaleX(1); }
 
 .card h2 {
     font-size: 2rem; margin: 0; color: var(--text-primary); transition: transform 0.3s;
 }
-.card:hover h2 {
+.card:hover h2, .card.active h2 {
     transform: scale(0.85) translateY(-10px); color: var(--brand-color);
 }
 
@@ -207,7 +203,8 @@ main {
     opacity: 0; height: 0; transform: translateY(20px); transition: all 0.4s ease;
     text-align: center; overflow: hidden;
 }
-.card:hover .card-content {
+/* Abre o conteúdo */
+.card:hover .card-content, .card.active .card-content {
     opacity: 1; height: auto; transform: translateY(0); margin-top: 1rem;
 }
 
@@ -231,7 +228,9 @@ main {
     width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 1.1rem;
     transition: all 0.3s; opacity: 0; transform: scale(0); z-index: 10;
 }
-.card:hover .btn-fav { opacity: 1; transform: scale(1); }
+/* Mostra botão favoritar */
+.card:hover .btn-fav, .card.active .btn-fav { opacity: 1; transform: scale(1); }
+
 .btn-fav:hover { background: rgba(255,255,255,0.1); color: #fff; }
 .btn-fav.active { color: #ef4444; animation: pulse 0.3s ease; }
 

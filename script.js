@@ -45,17 +45,24 @@ function renderizarCards(suplementos) {
         article.classList.add("card");
         article.id = `card-${i}`;
 
+        // NOVO: Adiciona a função de "abrir/fechar" ao clicar no card (Mobile)
+        article.onclick = function() {
+            this.classList.toggle('active');
+        };
+
         const tagsHTML = suplemento.tags 
             ? suplemento.tags.map(tag => `<span class="tag">${tag}</span>`).join('') 
             : '';
 
+        // Note o 'event.stopPropagation()' no botão de favorito para não fechar o card ao curtir
         article.innerHTML = `
+            <button class="btn-fav" onclick="event.stopPropagation(); toggleFavorito(this, '${suplemento.nome}')" title="Favoritar">❤</button>
             <h2>${suplemento.nome}</h2>
             <div class="card-content">
                 <div class="tags-container">${tagsHTML}</div>
                 <p><strong>Descoberto em:</strong> ${suplemento.ano}</p>
                 <p>${suplemento.descricao}</p>
-                <a href="${suplemento.link}" target="_blank" class="btn-link">Saiba Mais →</a>
+                <a href="${suplemento.link}" target="_blank" class="btn-link" onclick="event.stopPropagation()">Saiba Mais →</a>
             </div>
         `;
         cardsContainer.appendChild(article);
@@ -65,7 +72,7 @@ function renderizarCards(suplementos) {
 // --- FUNDO ANIMADO (PARTÍCULAS) ---
 function initParticles() {
     const canvas = document.getElementById('neural-bg');
-    if(!canvas) return; // Proteção se não tiver canvas
+    if(!canvas) return; 
     const ctx = canvas.getContext('2d');
     
     let width, height, particles;
@@ -122,6 +129,9 @@ function descobrirRandom() {
 
     if (cardElement) {
         cardElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        // Simula o clique para abrir o card automaticamente no sorteio
+        cardElement.classList.add('active');
+        
         setTimeout(() => {
             cardElement.classList.add('highlight-pulse');
             mostrarToast(`IA selecionou: ${dados[randomIndex].nome}!`, "sucesso");
@@ -142,6 +152,16 @@ function mostrarToast(mensagem, tipo = "info") {
     if (tipo === "sucesso") toast.style.borderLeftColor = "#a3e635";
     container.appendChild(toast);
     setTimeout(() => { toast.style.opacity = "0"; setTimeout(() => toast.remove(), 300); }, 3000);
+}
+
+// Funcao global de favoritar
+window.toggleFavorito = function(btn, nome) {
+    btn.classList.toggle("active");
+    if (btn.classList.contains("active")) {
+        mostrarToast(`${nome} favoritado!`, "sucesso");
+    } else {
+        mostrarToast(`${nome} removido.`, "info");
+    }
 }
 
 // Event Listeners
