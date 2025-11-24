@@ -118,5 +118,245 @@
       "força",
       "estresse"
     ]
+  },
+  {
+    "nome": "L-Carnitina Tartarato",
+    "descricao": "Derivado de aminoácidos essencial para o transporte de ácidos graxos de cadeia longa para dentro da mitocôndria, onde são oxidados para produzir energia (ATP). O Tartarato é uma forma que demonstrou melhorar a absorção e pode auxiliar na recuperação muscular pós-exercício intenso devido à redução do estresse oxidativo.",
+    "ano": 1950,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/28551187/",
+    "tags": [
+      "metabolismo_lipídico",
+      "energia",
+      "recuperação",
+      "endurance"
+    ]
+  },
+  {
+    "nome": "BCAAs (Aminoácidos de Cadeia Ramificada)",
+    "descricao": "Compostos por Leucina, Isoleucina e Valina, são aminoácidos essenciais metabolizados primariamente no músculo. A Leucina atua como um potente sinalizador da via mTOR, crucial para a síntese proteica. Utilizados para reduzir o catabolismo durante exercícios prolongados e promover a recuperação muscular.",
+    "ano": 1960,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/30932087/",
+    "tags": [
+      "síntese_proteica",
+      "anti-catabolismo",
+      "fadiga",
+      "músculo"
+    ]
+  },
+  {
+    "nome": "Coenzima Q10 (CoQ10)",
+    "descricao": "Composto lipossolúvel vital, presente nas membranas mitocondriais, onde participa da cadeia de transporte de elétrons para a produção de ATP. Atua também como um potente antioxidante. A suplementação é relevante para indivíduos com alta demanda energética ou em uso de estatinas.",
+    "ano": 1957,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/30013725/",
+    "tags": [
+      "mitocôndria",
+      "antioxidante",
+      "saúde_cardíaca",
+      "energia"
+    ]
+  },
+  {
+    "nome": "Curcumina",
+    "descricao": "Principal curcuminoide encontrado na cúrcuma (açafrão-da-terra). É amplamente reconhecido por suas potentes propriedades anti-inflamatórias e antioxidantes, modulando diversas vias de sinalização celular. No esporte, é utilizada para auxiliar na redução da dor muscular tardia e na recuperação pós-exercício.",
+    "ano": 1900,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/31137119/",
+    "tags": [
+      "anti-inflamatório",
+      "recuperação",
+      "antioxidante",
+      "saúde_articular"
+    ]
+  },
+  {
+    "nome": "Rhodiola Rosea",
+    "descricao": "Erva adaptógena utilizada para aumentar a resistência do organismo ao estresse físico, químico e ambiental. Seus compostos ativos (salidrosídeos e rosavinas) podem modular a resposta ao cortisol e atuar sobre os neurotransmissores, melhorando o desempenho cognitivo e a fadiga durante exercícios prolongados.",
+    "ano": 1960,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/22421639/",
+    "tags": [
+      "adaptógeno",
+      "fadiga",
+      "estresse",
+      "resistência"
+    ]
+  },
+  {
+    "nome": "Vitamina C (Ácido Ascórbico)",
+    "descricao": "Vitamina hidrossolúvel essencial, atua como um poderoso agente antioxidante e cofator em diversas reações enzimáticas, incluindo a síntese de colágeno e carnitina. Essencial para a função imunológica, sua suplementação pode ser útil em períodos de estresse físico intenso, onde a demanda por antioxidantes é elevada.",
+    "ano": 1932,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/33924151/",
+    "tags": [
+      "imunidade",
+      "antioxidante",
+      "colágeno",
+      "recuperação"
+    ]
+  },
+  {
+    "nome": "L-Arginina",
+    "descricao": "Aminoácido semi-essencial e precursor imediato do Óxido Nítrico (NO). O NO é um potente vasodilatador que melhora o fluxo sanguíneo para os músculos ativos, otimizando a entrega de oxigênio e nutrientes. Embora muito utilizada, sua eficácia oral é limitada devido ao metabolismo de primeira passagem, sendo a Citrulina muitas vezes preferida.",
+    "ano": 1932,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/31338871/",
+    "tags": [
+      "óxido_nítrico",
+      "vasodilatação",
+      "fluxo_sanguíneo",
+      "pump"
+    ]
+  },
+  {
+    "nome": "Taurina",
+    "descricao": "Aminoácido abundante no músculo, cérebro e coração. Não participa da síntese proteica, mas possui funções importantes na regulação osmótica (hidratação celular), estabilização de membranas e neurotransmissão. Pode auxiliar na performance ao reduzir cãibras e melhorar a função neuromuscular.",
+    "ano": 1827,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/31735161/",
+    "tags": [
+      "hidratação_celular",
+      "função_nervosa",
+      "antioxidante",
+      "resistência"
+    ]
+  },
+  {
+    "nome": "HMB (Beta-hidroxi-beta-metilbutirato)",
+    "descricao": "Metabólito ativo do aminoácido Leucina. Seu principal mecanismo é anti-catabólico, minimizando a degradação da proteína muscular em condições de estresse (como treino intenso ou restrição calórica). Mais eficaz em atletas iniciantes ou em indivíduos que retomam o treinamento após longos períodos de inatividade.",
+    "ano": 1987,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/28509229/",
+    "tags": [
+      "anti-catabolismo",
+      "recuperação",
+      "força",
+      "músculo"
+    ]
+  },
+  {
+    "nome": "N-Acetil Cisteína (NAC)",
+    "descricao": "Forma estável do aminoácido L-Cisteína. É o precursor dietético direto do Glutationa, o principal antioxidante endógeno do corpo. A suplementação é utilizada para reabastecer as reservas de Glutationa, auxiliando na detoxificação hepática e na redução da fadiga muscular induzida pelo estresse oxidativo.",
+    "ano": 1960,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/32454316/",
+    "tags": [
+      "antioxidante",
+      "glutationa",
+      "detoxificação",
+      "fadiga"
+    ]
+  },
+  {
+    "nome": "Ginseng (Panax ginseng)",
+    "descricao": "Raiz adaptógena tradicional, contendo ginsenosídeos. Atua no eixo hipotálamo-hipófise-adrenal (HPA), ajudando o corpo a se adaptar ao estresse. Associado à melhoria da capacidade aeróbica, redução da fadiga percebida e potencialização da função cognitiva (foco e memória).",
+    "ano": 1950,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/33919014/",
+    "tags": [
+      "adaptógeno",
+      "cognição",
+      "energia",
+      "resistência"
+    ]
+  },
+  {
+    "nome": "Ácido Alfa-Lipóico (ALA)",
+    "descricao": "Antioxidante poderoso solúvel em água e gordura (anfipático), essencial para o metabolismo energético nas mitocôndrias. É notável por sua capacidade de regenerar outros antioxidantes (como a Vitamina C e Glutationa). Também melhora a sensibilidade à insulina, atuando como um 'mimetizador de insulina' ao aumentar a captação de glicose pelas células.",
+    "ano": 1951,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/30588828/",
+    "tags": [
+      "antioxidante",
+      "sensibilidade_insulina",
+      "metabolismo",
+      "glicose"
+    ]
+  },
+  {
+    "nome": "D-Ribose",
+    "descricao": "Um carboidrato de cinco carbonos que é um componente fundamental do ATP, o principal transportador de energia celular. A suplementação é usada para acelerar a taxa de ressíntese de ATP após exercícios de alta intensidade, particularmente em tecidos com turnover energético rápido como o músculo cardíaco e esquelético.",
+    "ano": 1970,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/29851609/",
+    "tags": [
+      "ATP",
+      "energia",
+      "recuperação",
+      "metabolismo"
+    ]
+  },
+  {
+    "nome": "Spirulina (Arthrospira platensis)",
+    "descricao": "Cianobactéria (alga azul-verde) rica em proteínas completas, vitaminas B, ferro e fitoquímicos como a ficocianina. No esporte, é valorizada por sua alta densidade nutricional, suporte antioxidante e potencial para melhorar o status de ferro e a capacidade aeróbica.",
+    "ano": 1970,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/33215984/",
+    "tags": [
+      "nutrientes",
+      "proteína",
+      "antioxidante",
+      "saúde_imunológica"
+    ]
+  },
+  {
+    "nome": "Glicerol",
+    "descricao": "Molécula utilizada como agente hiper-hidratante. Por ser osmoticamente ativo, o glicerol ingerido com grandes volumes de água aumenta a retenção de fluidos no plasma e no espaço intercelular, auxiliando na termorregulação e potencialmente melhorando o desempenho em esportes de longa duração em ambientes quentes.",
+    "ano": 1987,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/28552199/",
+    "tags": [
+      "hidratação",
+      "endurance",
+      "termorregulação",
+      "osmolaridade"
+    ]
+  },
+  {
+    "nome": "Picolinato de Cromo",
+    "descricao": "Forma orgânica do mineral cromo. Atua como um cofator para a insulina, facilitando sua ligação aos receptores celulares e otimizando a captação de glicose. É estudado por seu potencial em modular o metabolismo de carboidratos e lipídios, embora sua eficácia na composição corporal seja controversa.",
+    "ano": 1959,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/32943265/",
+    "tags": [
+      "metabolismo_glicose",
+      "insulina",
+      "mineral",
+      "açúcar"
+    ]
+  },
+  {
+    "nome": "Colina (Bitartarato ou CDP-Colina)",
+    "descricao": "Nutriente essencial precursor da acetilcolina, um neurotransmissor crucial para a memória, controle muscular e cognição. A Colina é importante para a integridade das membranas celulares. A suplementação pode ser benéfica para otimizar o foco e a função neuromuscular durante o exercício intenso.",
+    "ano": 1998,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/24435634/",
+    "tags": [
+      "cognição",
+      "neurotransmissor",
+      "foco",
+      "função_muscular"
+    ]
+  },
+  {
+    "nome": "Vitamina B12 (Cobalamina)",
+    "descricao": "Vitamina hidrossolúvel essencial, crucial na formação de glóbulos vermelhos (prevenindo a anemia megaloblástica) e na manutenção da bainha de mielina dos nervos. Desempenha um papel vital no metabolismo energético (ciclo do ácido cítrico) e na metilação, sendo crítica para a performance atlética e saúde geral, especialmente em dietas vegetarianas/veganas.",
+    "ano": 1926,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/32252110/",
+    "tags": [
+      "energia",
+      "metabolismo",
+      "glóbulos_vermelhos",
+      "saúde_nervosa"
+    ]
+  },
+  {
+    "nome": "Berberina",
+    "descricao": "Alcaloide bioativo extraído de várias plantas. É conhecido por modular a sinalização celular, ativando a via AMPK (Proteína Quinase Ativada por AMP), que simula os efeitos metabólicos do exercício físico e da restrição calórica. Amplamente utilizada para melhorar o controle glicêmico e a saúde metabólica.",
+    "ano": 1900,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/31804791/",
+    "tags": [
+      "metabolismo",
+      "glicemia",
+      "saúde_metabólica",
+      "AMPK"
+    ]
+  },
+  {
+    "nome": "Fosfatidilserina (PS)",
+    "descricao": "Fosfolipídio que é um componente estrutural chave das membranas celulares, particularmente abundante no cérebro. No esporte, é utilizada primariamente como um agente nootrópico para melhorar a função cognitiva e, mais notavelmente, para atenuar a resposta do cortisol (hormônio do estresse) após exercícios de alta intensidade.",
+    "ano": 1990,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/16839352/",
+    "tags": [
+      "cognição",
+      "cortisol",
+      "estresse",
+      "membrana_celular"
+    ]
   }
 ]
