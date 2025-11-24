@@ -1,0 +1,122 @@
+[
+  {
+    "nome": "Creatina",
+    "descricao": "A creatina é um composto natural encontrado em pequenas quantidades em alimentos como carne vermelha e peixe, e também é sintetizada pelo corpo humano a partir dos aminoácidos glicina, arginina e metionina. Ela é armazenada principalmente nos músculos esqueléticos, onde desempenha um papel crucial na produção de energia durante atividades de alta intensidade e curta duração, como levantamento de peso e sprints.",
+    "ano": 1832,
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3407788/",
+    "tags": [
+      "força",
+      "energia",
+      "explosão",
+      "hipertrofia"
+    ]
+  },
+  {
+    "nome": "Beta-Alanina",
+    "descricao": "A Beta-Alanina é um aminoácido não essencial que desempenha um papel fundamental na produção de carnosina, um dipeptídeo encontrado em altas concentrações nos músculos esqueléticos. A carnosina atua como um tampão contra a acidose muscular, ajudando a neutralizar os íons de hidrogênio que se acumulam durante exercícios intensos. Isso pode melhorar o desempenho em atividades de alta intensidade e retardar a fadiga muscular.",
+    "ano": 2000,
+    "link": "https://abran.org.br/publicacoes/artigo/efeitos-da-suplementacao-de-beta-alanina-na-composicao-corporal",
+    "tags": [
+      "resistência",
+      "fadiga",
+      "desempenho",
+      "acidose"
+    ]
+  },
+  {
+    "nome": "Whey Protein",
+    "descricao": "O Whey Protein é uma das principais proteínas do leite, extraída durante o processo de fabricação do queijo. É uma proteína de alta qualidade, completa, contendo todos os aminoácidos essenciais. Sua rápida absorção o torna ideal para consumo pós-treino, auxiliando na recuperação muscular, síntese de proteínas e ganho de massa magra.",
+    "ano": 1990,
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3905294/",
+    "tags": [
+      "proteína",
+      "recuperação",
+      "hipertrofia",
+      "pós-treino"
+    ]
+  },
+  {
+    "nome": "Cafeína",
+    "descricao": "A cafeína é um estimulante do sistema nervoso central, encontrado em café, chá e outras fontes. É um dos auxílios ergogênicos mais estudados e comprovados. Melhora o estado de alerta, a concentração e a performance em exercícios de resistência e de alta intensidade, reduzindo a percepção de esforço.",
+    "ano": 1819,
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462044/",
+    "tags": [
+      "energia",
+      "foco",
+      "estimulante",
+      "pré-treino"
+    ]
+  },
+  {
+    "nome": "Citrulina Malato",
+    "descricao": "A Citrulina é um aminoácido que desempenha um papel importante no ciclo da ureia, ajudando a remover amônia do corpo. Como suplemento, a Citrulina Malato aumenta os níveis de óxido nítrico, melhorando o fluxo sanguíneo para os músculos, o que pode aumentar a resistência e reduzir a dor muscular pós-treino.",
+    "ano": 1990,
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4759860/",
+    "tags": [
+      "vasodilatação",
+      "pump",
+      "resistência",
+      "fluxo sanguíneo"
+    ]
+  },
+  {
+    "nome": "Glutamina",
+    "descricao": "Aminoácido não essencial mais abundante no corpo. Atua como combustível para células do sistema imune e intestinais. No exercício intenso, a suplementação é utilizada para prevenir a queda dos níveis plasmáticos e auxiliar na recuperação muscular e saúde intestinal, sendo crucial para a manutenção da integridade da mucosa.",
+    "ano": 1989,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/25527318/",
+    "tags": [
+      "aminoácido",
+      "recuperação",
+      "imunidade",
+      "saúde intestinal"
+    ]
+  },
+  {
+    "nome": "ZMA (Zinco, Magnésio e Vit. B6)",
+    "descricao": "Combinação de Zinco, Magnésio e Vitamina B6. Embora promovido para aumentar os níveis de testosterona e força, sua eficácia primária é corrigir deficiências minerais comuns em atletas que perdem zinco e magnésio pelo suor. O magnésio é vital para a função neuromuscular e o zinco para a recuperação e função imune.",
+    "ano": 1998,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/20390101/",
+    "tags": [
+      "mineral",
+      "recuperação",
+      "sono",
+      "função muscular"
+    ]
+  },
+  {
+    "nome": "Vitamina D3 (Colecalciferol)",
+    "descricao": "Hormônio esteroide (apesar de ser classificada como vitamina) essencial para a absorção de cálcio e saúde óssea. Em atletas, níveis adequados são correlacionados com melhor função muscular, força, e modulação do sistema imune, além de reduzir o risco de lesões por estresse.",
+    "ano": 2005,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/23769931/",
+    "tags": [
+      "hormônio",
+      "saúde óssea",
+      "imunidade",
+      "força"
+    ]
+  },
+  {
+    "nome": "Ômega-3 (EPA/DHA)",
+    "descricao": "Ácidos graxos poli-insaturados essenciais (EPA e DHA) encontrados principalmente em peixes gordurosos. Atuam modulando a resposta inflamatória pós-exercício, reduzindo o dano muscular induzido pelo treino intenso e melhorando a função cardiovascular. São cruciais para a saúde cerebral e integridade das membranas celulares.",
+    "ano": 2000,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/27041573/",
+    "tags": [
+      "anti-inflamatório",
+      "saúde cardiovascular",
+      "recuperação",
+      "gordura essencial"
+    ]
+  },
+  {
+    "nome": "Ashwagandha (Withania somnifera)",
+    "descricao": "Erva adaptógena tradicionalmente usada na medicina Ayurvédica. Ajuda o corpo a gerenciar o estresse físico e mental, reduzindo os níveis de cortisol (hormônio do estresse). Estudos mostram potencial para melhorar a força muscular, aumentar a resistência cardiorrespiratória e otimizar a recuperação do sono.",
+    "ano": 2010,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/31517876/",
+    "tags": [
+      "adaptógeno",
+      "cortisol",
+      "força",
+      "estresse"
+    ]
+  }
+]
