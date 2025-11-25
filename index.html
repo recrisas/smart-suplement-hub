@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- Importando Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Smart Supplement Hub | AI Powered</title>
 </head>
 <body>
-    <!-- Fundo Animado (Rede Neural) -->
+    <!-- Fundo Animado -->
     <canvas id="neural-bg"></canvas>
 
     <header>
@@ -18,17 +20,32 @@
         
         <div class="search-wrapper">
             <input type="text" id="campo-busca" placeholder="Busque por energia, foco, força...">
-            
-            <!-- Botão de Dado: Agora separado e espaçoso -->
             <button id="btn-random" title="Sorteio Aleatório">🎲</button>
-            
             <button id="botao-busca" onclick="iniciarBusca()">Pesquisar</button>
         </div>
     </header>
 
     <main>
+        <section class="dashboard-container">
+            <div class="chart-wrapper">
+                <h3>🔥 Distribuição de Benefícios</h3>
+                <canvas id="myChart"></canvas>
+            </div>
+            <div class="stats-wrapper">
+                <!-- NOVO: Card Clicável para Resetar -->
+                <div class="stat-card" onclick="resetarFiltros()" style="cursor: pointer;" title="Clique para ver todos">
+                    <span id="total-supplements">0</span>
+                    <p>Suplementos (Ver todos)</p>
+                </div>
+                
+                <div class="stat-card" onclick="abrirModalTags()" style="cursor: pointer;" title="Ver todas as categorias">
+                    <span id="total-tags">0</span>
+                    <p>Categorias (Ver todas)</p>
+                </div>
+            </div>
+        </section>
+
         <section class="card-container">
-            <!-- Mensagem inicial -->
             <p style="color: var(--text-secondary); text-align: center; width: 100%; margin-top: 2rem;">Inicializando rede neural...</p>
         </section>
     </main>
@@ -36,11 +53,22 @@
     <footer class="footer">
         <div class="footer-location">Desenvolvido no Brasil 🇧🇷</div>
         <div class="footer-links">
-            <a href="https://www.linkedin.com/in/renata-alveso/">Autora</a>
-            <a href="https://github.com/recrisas/smart-suplement-hub" target="_blank">GitHub</a>
-            <a href="https://ai.google.dev/gemini-api/docs">API Documentation</a>
+            <a href="https://www.linkedin.com/in/seu-usuario-linkedin/" target="_blank">Sobre o Projeto</a>
+            <a href="https://github.com/recrisas" target="_blank">GitHub</a>
+            <a href="https://ai.google.dev/gemini-api/docs" target="_blank">API Documentation</a>
         </div>
     </footer>
+
+    <!-- MODAL DE TAGS -->
+    <div id="modal-tags" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Todas as Categorias</h2>
+                <button class="close-modal" onclick="fecharModalTags()">×</button>
+            </div>
+            <div class="modal-body" id="lista-tags-completa"></div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
